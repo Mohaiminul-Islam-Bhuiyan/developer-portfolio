@@ -4,18 +4,18 @@ body {
 }
 
 h1 {
-    font-size: 50;
+    font-size: 50px;
 }
 
-.font-bold {
-    font-size: 200%;
+.title{
+    font-size: xx-large;
 }
 
 .orange-color {
     color: orangered;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -46,4 +46,28 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.specialities{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.special-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px coral;
+}
+#choosy-cat{
+    border-left: 7px solid red;
+}
+#naughty{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
